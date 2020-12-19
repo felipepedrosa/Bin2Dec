@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bin2Dec</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
     <script
       src="https://kit.fontawesome.com/da05f326aa.js"
       crossorigin="anonymous"
@@ -13,7 +12,17 @@
   </head>
   <body>
     <header class="default-container">
-      <h1>Bin2Dec</h1>
+      <div class="title">
+        <h1>Bin2Dec</h1>
+      </div>
+
+      <div class="theme-switch-container">
+        <span>Light / Dark</span>
+        <div class="toggle">
+          <input type="checkbox" id="switch" name="theme" />
+          <label for="switch" id="label-switch">Toggle</label>
+        </div>
+      </div>
     </header>
     <main class="default-container">
       <div class="content">
@@ -66,5 +75,8 @@
         ></a>
       </div>
     </footer>
+
+    <script src="/scripts/script.js"></script>
+    <script src="/scripts/theme-switcher.js"></script>
   </body>
 </html>
