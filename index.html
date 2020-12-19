@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bin2Dec</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/da05f326aa.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="default-container">
+      <h1>Bin2Dec</h1>
+    </header>
+    <main class="default-container">
+      <div class="content">
+        <div id="result-container" class="result hidden">
+          <span id="result">1231243124</span>
+        </div>
+
+        <div class="input">
+          <label for="input">Binary value</label>
+          <input
+            type="text"
+            id="input"
+            placeholder="Put the value to convert here"
+          />
+        </div>
+
+        <button id="submit-button" onclick="convertBinaryToDecimal()">
+          Submit
+        </button>
+      </div>
+    </main>
+
+    <section class="default-container information">
+      <p>
+        Binary is the number system all digital computers are based on.
+        Therefore it's important for developers to understand binary, or base 2,
+        mathematics. The purpose of Bin2Dec is to provide practice and
+        understanding of how binary calculations. Bin2Dec allows the user to
+        enter strings of up to 8 binary digits, 0's and 1's, in any sequence and
+        then displays its decimal equivalent.
+      </p>
+      <p>
+        This site is a result of this
+        <a
+          href="https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Bin2Dec-App.md"
+          >challenge</a
+        >, that asks for develop a Binary to Decimal converter. You can see more
+        about binary and decimal values
+        <a href="https://en.wikipedia.org/wiki/Binary_number">here!</a>
+      </p>
+    </section>
+    <footer>
+      Developed by Felipe Pedrosa |
+      <div class="links">
+        <a href="https://instagram.com/felipeepedrosa" target="blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://github.com/felipepedrosa" target="blank"
+          ><i class="fab fa-github-square"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
